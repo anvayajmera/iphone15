@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 15</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>iPhone 15</h1>
+    </div>
+    <div class="content">
+        <img src="iphone15.jpg" alt="iPhone 15">
+    </div>
+    <div class="specs">
+        <h2>Specifications</h2>
+        <ul>
+            <li>Display: 6.7 inches</li>
+            <li>Camera: 108MP</li>
+            <li>Battery: 4000mAh</li>
+        </ul>
+    </div>
+    <script src="scripts.js"></script>
+    <script
+                  document.addEventListener('DOMContentLoaded', function() {
+                var img = document.querySelector('.content img');
+                img.addEventListener('click', function() {
+                    alert('iPhone 15 clicked!');
+                });
+            });
+
+    </script>
+</body>
+</html>
+
+
+
